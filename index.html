@@ -17,7 +17,7 @@
 <body>
 
     <!-- Nav section -->
-    <section class="relative md:h-[836px] h-[2900px] bg-cover bg-center bg-no-repeat"
+    <section class="relative w-full md:max-h-[936px]  bg-cover bg-center bg-no-repeat"
         style="background-image: url('https://i.ibb.co.com/M2DNVsy/32f304e1bc6906b2ea29d4820076fef8.jpg');">
         <!-- Background color overlay -->
         <div class="absolute inset-0 bg-[#132238] bg-opacity-85"></div>
@@ -27,10 +27,9 @@
             <div class="navbar px-0">
                 <div class="navbar-start w-full ">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <button class="btn btn-ghost text-xl">
-                                <img src="https://i.ibb.co.com/1rRmSmp/Logo-6.png" alt="jubaer">
-                            </button>
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden max-sm:pl-10 md:pl-20">
+
+                            <span class="text-white text-3xl"><i class="fa-solid fa-bars"></i></span>
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
@@ -42,7 +41,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl p-0 max-sm:hidden">
+                    <a class="btn btn-ghost md:text-xl p-0 ">
                         <img src="https://i.ibb.co.com/1rRmSmp/Logo-6.png" alt="jubaer">
                     </a>
                 </div>
@@ -64,7 +63,7 @@
         </div>
         <!-- End Navbar  -->
         <div
-            class="max-w-[1320px] mx-auto md:flex justify-between md:pt-[208px] md:pb-[120px] max-sm:pb-[50px] relative z-10 p-2  max-sm:px-10">
+            class="max-w-[1320px] mx-auto md:px-20 lg:px-0 md:space-y-6  lg:flex justify-between lg:pt-[208px] md:pt-[80px]  lg:pb-[120px] md:pb-[60px] max-sm:pb-[50px] relative z-10 p-2  max-sm:px-10">
             <div class="md:w-[536px]  max-sm:py-10  ">
                 <h1 class="text-white md:text-[48px] text-3xl md:leading-[56px]">Hello, I’m Robert. I’m expert in to
                     capture all the
@@ -84,29 +83,31 @@
                         Touch</button>
                 </div>
 
+
             </div>
         </div>
         <!-- images -->
-        <div class="md:flex justify-between gap-5 md:h-[488px] absolute  w-full">
 
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/JmZNKqZ/Images-18.png" alt="">
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/x5JQSXv/Images-17.png" alt="">
+        <div class="relative z-10 grid grid-cols-3 md:grid-cols-6  gap-4 md:gap-6 px-4 md:px-0 mt-10 md:mt-20 ">
+            <img src="https://i.ibb.co.com/JmZNKqZ/Images-18.png" alt="Image 1" class="w-full h-full">
+            <img src="https://i.ibb.co.com/x5JQSXv/Images-17.png" alt="Image 2" class="w-full h-full">
+            <img src="https://i.ibb.co.com/zGgRJPR/Images-16.png" alt="Image 3" class="w-full h-full">
+            <img src="https://i.ibb.co.com/FwMhsnG/Images-15.png" alt="Image 4" class="w-full h-full">
+            <img src="https://i.ibb.co.com/wMTYvPX/Images-14.png" alt="Image 5" class="w-full h-full">
+            <img src="https://i.ibb.co.com/VvS0JNg/Images-13.png" alt="Image 6" class="w-full h-full">
 
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/zGgRJPR/Images-16.png" alt="">
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/FwMhsnG/Images-15.png" alt="">
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/wMTYvPX/Images-14.png" alt="">
-            <img class="w-full max-sm:h-96 max-sm:p-2" src="https://i.ibb.co.com/VvS0JNg/Images-13.png" alt="">
         </div>
 
     </section>
 
-    <!-- Protographer Section -->
+    <!-- Protograph Section -->
 
-    <section class="max-w-[1320px] mx-auto md:flex justify-between items-center md:mt-[350px] max-sm:mt-16 max-sm:p-5">
-        <div class="md:w-[648px]">
-            <img src="https://i.ibb.co.com/Th7fhtb/Photo.png" alt="">
+    <section
+        class="max-w-[1320px] mx-auto lg:flex justify-between items-center lg:mt-[350px] md:mt-[100px] max-sm:mt-16 max-sm:p-5">
+        <div class="lg:w-[648px] w-full">
+            <img class="w-full" src="https://i.ibb.co.com/Th7fhtb/Photo.png" alt="">
         </div>
-        <div class="md:w-[536px] space-y-3 max-sm:pt-8">
+        <div class="lg:w-[536px] w-full space-y-3 max-sm:pt-8 md:p-10 lg:p-0">
             <div class="flex gap-3">
                 <p>📸 Photographer</p>
                 <p>📖 Writer</p>
@@ -140,7 +141,7 @@
     <!-- Gallery Section -->
 
     <section class="max-w-[1320px] mx-auto py-28 space-y-10 p-3">
-        <div class="md:flex justify-between item-center max-sm:text-center">
+        <div class="md:flex justify-between item-center max-sm:text-center md:p-10 lg:p-0">
             <div class="md:w-[561px] space-y-3">
                 <h1 class="text-[36px] font-normal leading-[44px]">My Gallery</h1>
                 <p class="text-[16px] font-normal leading-[24px]">Nullam ligula nulla, mollis sed leo sit amet, gravida
@@ -152,22 +153,22 @@
                     More <span class="mx-2"><i class="fa-solid fa-arrow-right"></i></span> </button>
             </div>
         </div>
-        <div class="md:grid grid-flow-col gap-4">
+        <div class="lg:grid grid-flow-col gap-4">
             <!-- First Column -->
-            <div class="grid gap-4 md:w-[424px]">
+            <div class="grid gap-4 lg:w-[424px]">
                 <img src="https://i.ibb.co/P6KWf2S/Image-23.png" alt="Image 1" class="w-full h-auto">
                 <img src="https://i.ibb.co.com/CbTLf4z/Image-24.png" alt="Image 2" class="w-full h-auto">
                 <img src="https://i.ibb.co.com/m68XcqC/Image-25.png" alt="Image 3" class="w-full h-auto max-sm:mb-4">
             </div>
 
             <!-- Second Column -->
-            <div class="grid gap-4 md:w-[536px]">
+            <div class="grid gap-4 lg:w-[536px]">
                 <img src="https://i.ibb.co.com/1zC5Nqd/Image-26.png" alt="Image 4" class="w-full md:h-full ">
                 <img src="https://i.ibb.co.com/N3cGb30/Image-27.png" alt="Image 5" class="w-full md:h-full max-sm:mb-4">
             </div>
 
             <!-- Third Column -->
-            <div class="grid gap-4 md:w-[312px]">
+            <div class="grid gap-4 lg:w-[312px]">
                 <img src="https://i.ibb.co.com/1Jvv7VN/Image-28.png" alt="Image 6" class="w-full h-auto">
                 <img src="https://i.ibb.co.com/2tjsMrv/Image-29.png" alt="Image 7" class="w-full h-auto">
                 <img src="https://i.ibb.co.com/L0zswdj/Image-30.png" alt="Image 8" class="w-full h-auto">

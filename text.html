@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind & daisy ui CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="relative w-full bg-cover bg-center bg-no-repeat"
+        style="background-image: url('https://i.ibb.co.com/M2DNVsy/32f304e1bc6906b2ea29d4820076fef8.jpg');">
+        <!-- Background color overlay -->
+        <div class="absolute inset-0 bg-[#132238] bg-opacity-85"></div>
+
+        <!-- Navbar Content -->
+        <div class="relative z-10 max-w-[1320px] mx-auto px-4 md:px-6">
+            <div class="navbar flex items-center justify-between">
+                <!-- Logo -->
+                <a href="#" class="text-xl text-white">
+                    <img src="https://i.ibb.co.com/1rRmSmp/Logo-6.png" alt="jubaer" class="h-10">
+                </a>
+
+                <!-- Menu for large screens -->
+                <ul class="hidden lg:flex items-center space-x-6 text-white">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Pricing Plan</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <button class="bg-green-500 px-5 py-2 rounded-3xl hover:bg-green-600">
+                            <i class="fa-solid fa-phone-volume"></i> +1-202-555-0120
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Hamburger menu for small screens -->
+                <div class="lg:hidden">
+                    <button class="text-white">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div
+            class="relative z-10 max-w-[1320px] mx-auto flex flex-col md:flex-row justify-between items-start pt-16 md:pt-36 px-4 md:px-0">
+            <div class="md:w-[536px] space-y-6">
+                <h1 class="text-white text-3xl md:text-[48px] leading-tight">
+                    Hello, I’m Robert. I’m expert in capturing all the feelings.
+                </h1>
+            </div>
+            <div class="md:w-[536px] space-y-4">
+                <p class="text-white text-lg md:text-[20px] leading-relaxed">
+                    Nullam et ex lectus. Integer felis sapien, tempor maximus est in, commodo aliquam libero. Curabitur
+                    quam risus, consecur nec commodo nec, bibendum sed sapien.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <button class="text-white bg-green-500 px-5 py-2 rounded-3xl hover:bg-green-600">
+                        View Gallery <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </button>
+                    <button class="text-white border border-white px-5 py-2 rounded-3xl hover:bg-opacity-75">
+                        <i class="fa-regular fa-comment-dots mr-2"></i> Get in Touch
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Images -->
+        <div class="relative z-10 grid grid-cols-2 md:grid-cols-6 gap-4 md:gap-6 px-4 md:px-0 mt-10 md:mt-20">
+            <img src="https://i.ibb.co.com/JmZNKqZ/Images-18.png" alt="Image 1" class="w-full h-auto">
+            <img src="https://i.ibb.co.com/x5JQSXv/Images-17.png" alt="Image 2" class="w-full h-auto">
+            <img src="https://i.ibb.co.com/zGgRJPR/Images-16.png" alt="Image 3" class="w-full h-auto">
+            <img src="https://i.ibb.co.com/FwMhsnG/Images-15.png" alt="Image 4" class="w-full h-auto">
+            <img src="https://i.ibb.co.com/wMTYvPX/Images-14.png" alt="Image 4" class="w-full h-auto">
+            <img src="https://i.ibb.co.com/VvS0JNg/Images-13.png" alt="Image 4" class="w-full h-auto">
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
